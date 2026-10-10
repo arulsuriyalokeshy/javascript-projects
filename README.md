@@ -18,12 +18,12 @@ By reading through the `script.js` file, you will learn about:
 - **Browser Storage**: How to save your data across sessions using `localStorage` along with `JSON.stringify()` and `JSON.parse()`.
 
 ## 🛠️ How to Run
-You don't need any special tools or servers to run this project!
-1.go to this url : https://github.com/arulsuriyalokeshy/javascript-projects/tree/main/to-do%20list
-2.In your windows terminal : git clone https://github.com/arulsuriyalokeshy/javascript-projects
-3.Open the folder containing the project files.
-4. Double-click the `index.html` file to open it in your default web browser (like Chrome, Edge, Safari, or Firefox).
-5. Start adding tasks and dive into the `script.js` file to see how the magic happens behind the scenes!
+You don't need any special tools or servers to run this project!</br>
+1.go to this url : https://github.com/arulsuriyalokeshy/javascript-projects</br>
+2.In your windows terminal : git clone https://github.com/arulsuriyalokeshy/javascript-projects</br>
+3.Open the folder containing the project files.</br>
+4. Double-click the `index.html` file to open it in your default web browser (like Chrome, Edge, Safari, or Firefox).</br>
+5. Start adding tasks and dive into the `script.js` file to see how the magic happens behind the scenes!</br>
 
 ## 📁 File Structure
 - `index.html` - The skeleton of the application.
