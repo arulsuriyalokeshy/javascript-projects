@@ -19,10 +19,11 @@ By reading through the `script.js` file, you will learn about:
 
 ## 🛠️ How to Run
 You don't need any special tools or servers to run this project!
-
-1. Open the folder containing the project files.
-2. Double-click the `index.html` file to open it in your default web browser (like Chrome, Edge, Safari, or Firefox).
-3. Start adding tasks and dive into the `script.js` file to see how the magic happens behind the scenes!
+1.go to this url : https://github.com/arulsuriyalokeshy/javascript-projects/tree/main/to-do%20list
+2.In your windows terminal : git clone https://github.com/arulsuriyalokeshy/javascript-projects
+3.Open the folder containing the project files.
+4. Double-click the `index.html` file to open it in your default web browser (like Chrome, Edge, Safari, or Firefox).
+5. Start adding tasks and dive into the `script.js` file to see how the magic happens behind the scenes!
 
 ## 📁 File Structure
 - `index.html` - The skeleton of the application.
