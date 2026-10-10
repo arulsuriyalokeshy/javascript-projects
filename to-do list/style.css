@@ -1,0 +1,131 @@
+/* Basic reset and font styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f0f4f8; /* Soft blue-grey background */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    min-height: 100vh;       /* Make body take full viewport height */
+}
+
+.container {
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+}
+
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+#taskInput {
+    flex: 1; /* Take up remaining space */
+    padding: 12px;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+#taskInput:focus {
+    outline: none;
+    border-color: #3498db; /* Highlight border when focused */
+}
+
+#addButton {
+    padding: 12px 24px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s, transform 0.1s;
+}
+
+#addButton:hover {
+    background-color: #2980b9;
+}
+
+#addButton:active {
+    transform: scale(0.95); /* Slight click effect */
+}
+
+ul {
+    list-style-type: none; /* Remove default bullet points */
+}
+
+li {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 5px solid #3498db; /* Accent color on the left */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+    transition: transform 0.2s, opacity 0.3s, background-color 0.3s;
+}
+
+li:hover {
+    transform: translateX(5px); /* Slide slightly to the right on hover */
+}
+
+/* --- NEW STYLES: Task text & Completed state --- */
+
+.task-text {
+    cursor: pointer; /* Changes mouse to a clicking hand */
+    flex: 1; /* Pushes the delete button all the way to the right */
+    padding-right: 15px;
+    transition: color 0.3s, text-decoration 0.3s;
+}
+
+/* This class gets added by our JavaScript! */
+li.completed {
+    background: #e9ecef;
+    border-left-color: #a4b0be; /* Change the accent color to gray */
+    opacity: 0.7; /* Make it slightly transparent */
+}
+
+/* Cross out the text if it's inside a completed task */
+li.completed .task-text {
+    text-decoration: line-through;
+    color: #a4b0be;
+}
+
+/* ----------------------------------------------- */
+
+/* Style for the delete button inside a list item */
+.delete-btn {
+    background-color: #ff4757;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.delete-btn:hover {
+    background-color: #ff6b81;
+}
