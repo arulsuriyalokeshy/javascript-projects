@@ -1,4 +1,5 @@
-# Learn JavaScript: To-Do List Project
+# Learn JavaScript: 
+## project 1 : To-Do List Project
 
 Welcome to the beginner-friendly To-Do List project! This project was built from scratch with the primary goal of **learning JavaScript**. The code is heavily commented to explain every single step, making it the perfect resource if you're just starting your web development journey.
 
